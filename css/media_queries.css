@@ -1,0 +1,367 @@
+body{
+    background:#333;
+    color:#bd5d11;
+}
+
+a:link, a:visited{
+    color:#bd5d11;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+.errors{
+    color:red;
+}
+
+/* XXS Screensize */
+@media screen and (max-width:576px){
+    body{
+        padding:0
+    }
+    
+    h1{
+        color:#bc5d11;
+        font-family: 'Ranga', cursive;
+        font-size:2.5em;
+    }
+    .content{
+        width:100%;
+        height:100%;
+    }
+    
+    #logo_area, #form_area{
+        text-align:center;
+    }
+    
+    #logo{
+        width:75%;
+        visibility: visible;
+        margin-top:10%;
+    }
+    
+    form{
+        margin-top:5%;
+    }
+    
+    .text_input{
+        width:70%;
+        padding:2% 5%;
+        font-size:1.5em;
+        border:1px solid #bc5d11;
+        background:#333;
+        color:#bc5d11;
+        margin: 3% auto;
+        /* ff8c23 */
+    }
+    
+    input:focus{
+        outline:none;
+        background:#333;
+    }
+    
+    input::placeholder{
+        color:#bc5d11;
+    }
+    
+    .login_button{
+        width:80%;
+        padding:2% 5%;
+        font-size:1.5em;
+        background:#bc5d11;
+        border:1px solid #bc5d11;
+        margin-top:3%;
+    }
+    
+    .login_button:active, .login_button:visited, .login_button:focus{
+        margin-top:3.2%;
+        background:#bc5d11;
+    }
+    
+    p{
+        font-size:0.9em;
+        margin:2.3% auto;
+    }
+}
+
+/* XS Screensize */
+@media screen and (min-width:576px){
+    body{
+        padding:0
+    }
+    
+    h1{
+        color:#bc5d11;
+        font-family: 'Ranga', cursive;
+        font-size:2.5em;
+    }
+    .content{
+        width:100%;
+        height:100%;
+    }
+    
+    #logo_area, #form_area{
+        text-align:center;
+    }
+    
+    #logo{
+        width:75%;
+        visibility: visible;
+        margin-top:10%;
+    }
+    
+    form{
+        margin-top:5%;
+    }
+    
+    .text_input{
+        width:70%;
+        padding:2% 5%;
+        font-size:1.5em;
+        border:1px solid #bc5d11;
+        background:#333;
+        color:#bc5d11;
+        margin: 3% auto;
+        /* ff8c23 */
+    }
+    
+    input:focus{
+        outline:none;
+        background:#333;
+    }
+    
+    input::placeholder{
+        color:#bc5d11;
+    }
+    
+    .login_button{
+        width:80%;
+        padding:2% 5%;
+        font-size:1.5em;
+        background:#bc5d11;
+        border:1px solid #bc5d11;
+        margin-top:3%;
+    }
+    
+    .login_button:active, .login_button:visited, .login_button:focus{
+        margin-top:3.2%;
+        background:#bc5d11;
+    }
+    
+    p{
+        font-size:0.9em;
+        margin:2.3% auto;
+    }
+}
+
+/* SM Screensize */
+@media screen and (min-width:768px){
+    body{
+        padding:0;
+    }
+    
+    h1{
+        color:#bc5d11;
+        font-family: 'Ranga', cursive;
+        font-size:2.5em;
+    }
+    .content{
+        width:100%;
+        height:100%;
+    }
+    
+    #logo_area, #form_area{
+        text-align:center;
+    }
+    
+    #logo{
+        width:50%;
+        visibility: visible;
+        margin-top:2%;
+    }
+    
+    form{
+        margin-top:5%;
+    }
+    
+    .text_input{
+        width:70%;
+        padding:2% 5%;
+        font-size:1.5em;
+        border:1px solid #bc5d11;
+        background:#333;
+        color:#bc5d11;
+        margin: 3% auto;
+        /* ff8c23 */
+    }
+    
+    input:focus{
+        outline:none;
+        background:#333;
+    }
+    
+    input::placeholder{
+        color:#bc5d11;
+    }
+    
+    .login_button{
+        width:80%;
+        padding:2% 5%;
+        font-size:1.5em;
+        background:#bc5d11;
+        border:1px solid #bc5d11;
+        margin-top:3%;
+    }
+    
+    .login_button:active, .login_button:visited, .login_button:focus{
+        margin-top:3.2%;
+        background:#bc5d11;
+    }
+    
+    p{
+        font-size:0.9em;
+        margin:2.3% auto;
+    }
+}
+
+/* MD Screensize */
+@media screen and (min-width:992px){
+    body{
+        padding:0
+    }
+    
+    h1{
+        color:#bc5d11;
+        font-family: 'Ranga', cursive;
+        font-size:2.5em;
+    }
+    .content{
+        width:100%;
+        height:100%;
+    }
+    
+    #logo_area, #form_area{
+        text-align:center;
+    }
+    
+    #logo{
+        width:50%;
+        visibility: visible;
+        margin-top:2%;
+    }
+    
+    form{
+        margin-top:5%;
+    }
+    
+    .text_input{
+        width:70%;
+        padding:2% 5%;
+        font-size:1.5em;
+        border:1px solid #bc5d11;
+        background:#333;
+        color:#bc5d11;
+        margin: 3% auto;
+        /* ff8c23 */
+    }
+    
+    input:focus{
+        outline:none;
+        background:#333;
+    }
+    
+    input::placeholder{
+        color:#bc5d11;
+    }
+    
+    .login_button{
+        width:80%;
+        padding:2% 5%;
+        font-size:1.5em;
+        background:#bc5d11;
+        border:1px solid #bc5d11;
+        margin-top:3%;
+    }
+    
+    .login_button:active, .login_button:visited, .login_button:focus{
+        margin-top:3.2%;
+        background:#bc5d11;
+    }
+    
+    p{
+        font-size:0.9em;
+        margin:2.3% auto;
+    }
+}
+
+/* LG Screensize */
+@media screen and (min-width:1200px){
+    body{
+        padding:0
+    }
+    
+    h1{
+        color:#bc5d11;
+        font-family: 'Ranga', cursive;
+        font-size:2.5em;
+    }
+    .content{
+        width:100%;
+        height:100%;
+    }
+    
+    #logo_area, #form_area{
+        text-align:center;
+    }
+    
+    #logo{
+        width:30%;
+        visibility: visible;
+        margin-top:2%;
+    }
+    
+    form{
+        margin-top:2%;
+    }
+    
+    .text_input{
+        width:50%;
+        padding:1% 3%;
+        font-size:1.5em;
+        border:1px solid #bc5d11;
+        background:#333;
+        color:#bc5d11;
+        margin: 1% auto;
+        /* ff8c23 */
+    }
+    
+    input:focus{
+        outline:none;
+        background:#333;
+    }
+    
+    input::placeholder{
+        color:#bc5d11;
+    }
+    
+    .login_button{
+        width:56.5%;
+        padding:1% 3%;
+        font-size:1.5em;
+        background:#bc5d11;
+        border:1px solid #bc5d11;
+        margin-top:1%;
+    }
+    
+    .login_button:active, .login_button:visited, .login_button:focus{
+        margin-top:1.1%;
+        background:#bc5d11;
+    }
+    
+    p{
+        font-size:0.9em;
+        margin:2.3% auto;
+    }
+}
